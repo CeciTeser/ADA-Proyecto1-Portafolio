@@ -1,11 +1,12 @@
 .presentation{
-    height: 940px;
+    height: 1100px;
     width: 100%;
     padding: 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center; 
+    background-color: rgb(250, 245, 245);
 }
 .name-presentation{
     width: 50%;

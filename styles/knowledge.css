@@ -1,0 +1,53 @@
+.knowledge{
+    height: 940px;
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.box-container-knowledge{
+    width: 1100px;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+}
+.title-knowledge{
+    margin: 30px 370px;
+    font-size: 45px;
+}
+.text-knowledge{
+    width:400px;
+    height: 66px;
+    text-align: center;
+    margin: 0px 300px;
+    font-size: 16px;
+}
+.grid-skills{
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.box-each-skill{
+    width: 260px;
+    height: 230px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(230, 228, 228);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon-skills-size{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
