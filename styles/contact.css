@@ -1,0 +1,19 @@
+.contact{
+    height: 1020px;
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #A8DADC;
+}
+
+.box-container-form{
+    width: 1090px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}

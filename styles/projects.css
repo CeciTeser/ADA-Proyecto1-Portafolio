@@ -1,24 +1,26 @@
-.knowledge{
-    height: 940px;
+.projects{
+    height: 1520px;
     width: 100%;
     padding: 10%;
     display: flex;
     justify-content: center;
     align-items: center; 
+    background-color: rgb(250, 245, 245);
 }
 
-.box-container-knowledge{
-    width: 1100px;
-    height: 740px;
+.box-container-projects{
+    width: 1500px;
+    height: 1350px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
-.title-knowledge{
+.title-projects{
     margin: 30px 370px;
     font-size: 45px;
-    color: rgb(157, 157, 157);;
+    color: rgb(157, 157, 157);
 }
-.text-knowledge{
+.text-projects{
     width:400px;
     height: 66px;
     text-align: center;
@@ -26,18 +28,17 @@
     font-size: 16px;
     color: rgb(157, 157, 157);;
 }
-.grid-skills{
+.grid-my-projects{
     width: 1100px;
-    height: 500px;
+    height: 900px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
-.box-each-skill{
-    width: 260px;
-    height: 230px;
+.box-each-project{
+    width: 340px;
+    height: 340px;
     background-color: white;
     border-radius: 10px;
     border: 1px solid rgb(230, 228, 228);
@@ -47,9 +48,14 @@
     align-items: center;
     flex-direction: column;
 }
-.icon-skills-size{
-    width: 90px;
-    height: 100px;
-    margin-bottom: 20px;
-}
 
+.projects-img-size{
+    width: 200px;
+    height: 200px;
+}
+.text-each-project{
+    color: rgb(157, 157, 157);
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+}

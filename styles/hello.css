@@ -21,9 +21,10 @@
     height: 500px;
     margin-top: 150px;
 }
-.hola-soy{
+.hello-iam{
     font-size: 30px;
-    font-weight: 800    ;
+    font-weight: 800;
+    color:rgb(157, 157, 157);
 }
 .name{
     font-size: 60px;
@@ -33,7 +34,7 @@
     margin-bottom: 20px;
 
 }
-.box-lo-que-hago{
+.box-what-i-do{
     width: 200px;
     height: 50px;
     background-color: #E63946;
@@ -45,6 +46,6 @@
     margin-top: 30px;
 
 }
-.box-lo-que-hago:hover{
+.box-what-i-do:hover{
     background-color: #A8DADC;
 }

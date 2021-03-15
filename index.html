@@ -10,15 +10,18 @@
     <link rel="stylesheet" href="./styles/hello.css">
     <link rel="stylesheet" href="./styles/knowledge.css">
     <link rel="stylesheet" href="./styles/quote.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 
 </head>
 <body>
     <!-- Header -->
     <header><nav>
-        <ul>
+        <ul class="ul-sections-header">
             <li class="li-font-hover"><a class="link-none-deco" href="#hola">HELLO</a></li>
             <li class="li-font-hover"><a class="link-none-deco" href="#knowledge">KNOWLEDGE</a></li>
-            <li class="li-font-hover">PROJECTS</li>
+            <li class="li-font-hover"><a class="link-none-deco" href="#projects">PROJECTS</a></li>
             <li class="box-contacto">CONTACT</li>
         </ul>
     </nav>
@@ -26,13 +29,13 @@
     <!-- Main -->
 <main>
     <!-- Section Hello -->
-    <section class="hello"><a name="hola"></a>
+    <section class="hello"><a name="hello"></a>
         <div class="name-presentation">
-            <h3 class="hola-soy">¡Hola! Soy</h3>
+            <h3 class="hello-iam">¡Hello! I´am</h3>
             <h1 class="name">Cecilia Teisaire</h1>
-            <p>Licenciada en comunicación & Frontend developer trainee.</p>
+            <p>Bachelor´s degree in social communication & Frontend developer in the making.</p>
             
-            <div class="box-lo-que-hago"> <h4>LO QUE HAGO</h4></div> 
+            <div class="box-what-i-do"> <h4>WHAT I DO</h4></div> 
         </div>
 
         <div class="box-image-presentation">
@@ -76,9 +79,74 @@
             <p class="text-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cum, consequatur possimus id, accusantium nulla earum, blanditiis illo aperiam facilis consectetur asperiores voluptatibus incidunt iure iste repellendus itaque explicabo rerum.</p>
             <h2 class="sign-quote">Someone</h2>
         </div>
+    </section>
+    <!-- Section Projects -->
+    <section class="projects"><a name="projects"></a>
+        <div class="box-container-projects">
+        <h2 class="title-projects">MY PROJECTS</h2>
+        <p class="text-projects">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quod amet molestiae facere ipsam ullam excepturi maiores sunt voluptatem natus!</p>
+        <div class="grid-my-projects">
 
+            <div class="box-each-project"><img class="projects-img-size" src="./assets/images/Section Projects/img-portfolio.svg" alt="Portfolio"> 
+                <h3 class="text-each-project">Portfolio</h3></div>
+
+            <div class="box-each-project"><img class="projects-img-size" src="./assets/images/Section Projects/img-generador-de-memes.svg" alt="Generador de memes"> 
+                <h3 class="text-each-project">Generador de memes</h3></div>
+
+            <div class="box-each-project"><img class="projects-img-size" src="./assets/images/Section Projects/img-match3.svg" alt="Match 3"> 
+                <h3 class="text-each-project">Match 3</h3></div>
+
+            <div class="box-each-project"><img class="projects-img-size" src="./assets/images/Section Projects/img-controlador-de-gastos.svg" alt="Controlador de gastos"> 
+                <h3 class="text-each-project">Controlador de gastos</h3></div>
+
+            <div class="box-each-project"><img class="projects-img-size" src="./assets/images/Section Projects/img-administrador-de-reuniones.svg" alt="Administrador de reuniones"> 
+                <h3 class="text-each-project">Administrador de reuniones</h3></div>
+
+            <div class="box-each-project"><img class="projects-img-size" src="./assets/images/Section Projects/img-todo-app.svg" alt="Todo app"> 
+                <h3 class="text-each-project">Todo app</h3></div>
+
+            <div class="box-each-project"><img class="projects-img-size" src="./assets/images/Section Projects/img-buscador-de-peliculas.svg" alt="Buscador de películas"> 
+                <h3 class="text-each-project">Buscador de películas</h3></div>
+        </div>
+    </div>
+    </section>
+    <!-- Section Form -->
+    <section class="contact"><a name="contact"></a>
+        <div class="box-container-form">
+
+        </div>
     </section>
 </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <ul class="ul-sections-footer">
+                <li class="li-font-hover"><a class="link-none-deco" href="#hello">HELLO</a></li>
+                <li class="li-font-hover"><a class="link-none-deco" href="#knowledge">KNOWLEDGE</a></li>
+                <li class="li-font-hover"><a class="link-none-deco" href="#projects">PROJECTS</a></li>
+                <li class="li-font-hover"><a class="link-none-deco" href="#contact">CONTACT</li>
+            </ul>
+        </div>
 
+        <div>
+            <ul  class="rrss">
+                <li class="circulo-rrss"><a href="https://www.twitter.com/?hl=es">
+                    <img class="icono-rrss" src="./assets/images/Footer/rrss/twitter.svg" alt="Twitter"></li>
+
+                <li class="circulo-rrss"><a href="https://github.com/CeciTeser">
+                    <img class="icono-rrss" src="./assets/images/Footer/rrss/github-logo-face.svg" alt="Github"></li>
+
+                <li class="circulo-rrss"><a href="https://www.linkedin.com/in/ceciliateisaire/">
+                    <img class="icono-rrss" src="./assets/images/Footer/rrss/linkedin.svg" alt="Linkedin"></li>
+
+                <li class="circulo-rrss"><a href="https://www.twitter.com/?hl=es">
+                    <img class="icono-rrss" src="./assets/images/Footer/rrss/email-blanco.svg" alt="Mail"></li>
+            </ul>
+        </div>
+        
+        <div class="sign">
+            <p>Hecho por Ceci Teser</p>
+        </div>
+    </footer>
 </body>
 </html>
