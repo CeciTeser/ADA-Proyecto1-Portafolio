@@ -7,7 +7,7 @@
 
 .ul-sections-footer{
     width: 30%;
-    height: 30%;
+    height: 40%;
     color: black;
     font-size: 15px;
     font-weight: 300;
@@ -16,7 +16,7 @@
     list-style: none;
     margin-left: 600px;
 }
-.rrss{
+.rrss-footer{
     width: 20%;
     height: 30%;
     display: flex;
@@ -27,11 +27,11 @@
     margin-left: 650px;
     margin-top: 20px;
 }
-.icono-rrss{
+.icono-rrss-footer{
     width: 20px;
     height: 20px;
 }
-.circulo-rrss{
+.circulo-rrss-footer{
     width: 50px;
     height: 50px;
     background-color:#E63946;
@@ -51,4 +51,7 @@
     justify-content: center;
     margin-top: 30px;
     margin-left: 650px;
+}
+.circulo-rrss-footer:hover{
+    background-color:  #A8DADC;
 }

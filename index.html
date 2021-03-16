@@ -113,40 +113,103 @@
     <!-- Section Form -->
     <section class="contact"><a name="contact"></a>
         <div class="box-container-form">
-
+            <div class="box-contactme">
+                <h2 class="title-contactme">CONTACT ME</h2>
+                <p class="text-contactme">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam quod amet molestiae facere ipsam ullam excepturi maiores sunt voluptatem natus!</p>
+        
+                <ul class=rrss-contact>
+                    <li><a class="circulo-rrss-contact" href="https://www.twitter.com/?hl=es"><img class="icono-rrss-contact" src="./assets/images/Contact /rrss/twitter-contact.svg" alt="Twitter"></li></a>
+    
+                    <li><a  class="circulo-rrss-contact" href="https://github.com/CeciTeser"><img class="icono-rrss-contact" src="./assets/images/Contact /rrss/github-contact.svg" alt="Github"></li></a>
+    
+                    <li><a  class="circulo-rrss-contact" href="https://www.linkedin.com/in/ceciliateisaire/"> <img class="icono-rrss-contact" src="./assets/images/Contact /rrss/linkedin -contact.svg" alt="Linkedin"></li></a>
+    
+                    <li><a class="circulo-rrss-contact" href=""><img class="icono-rrss-contact" src="./assets/images/Contact /rrss/email-contact.svg" alt="Mail"></li></a>
+                </ul>  
+            </div>
+            
+            <div class="box-writeme">
+                <h2 class="title-writeme">WRITE ME</h2>
+                <form action="basededatos.php" method="GET">
+                    <div class="box-name-lastname">
+                        <div class="box-name">
+                            <label for="Name">Nombre<sup>*</sup></label>
+                            <input 
+                            class="input-name-lastname"
+                            type="text" 
+                            id="Name" 
+                            maxlength="20" 
+                            size="20" 
+                            placeholder="p.ej.: Cecilia">
+                        </div>  
+                        <div class="box-lastname">
+                            <label for="Lastname">Last name<sup>*</sup></label>
+                            <input 
+                            class="input-name-lastname"
+                            type="text" 
+                            id="Lastname" 
+                            maxlength="20" 
+                            size="20" 
+                            placeholder="p.ej.: Perez">
+                        </div>  
+                    </div>
+                    <div class="box-mail">
+                        <label for="Mail">E-mail<sub>*</sub></label>
+                        <input 
+                        class="input-mail"
+                        type="email" 
+                        id="Mail" 
+                        maxlength="20" 
+                        size="20" 
+                        placeholder="p.ej.: ceciperez@gmail.com"> 
+                    </div>
+                    <div class="box-message">
+                    <label for="Message">Message<sub>*</sub></label>
+                    <input 
+                    class="input-message"
+                    type="text" 
+                    id="Message" 
+                    maxlength="100" 
+                    size="50" 
+                    placeholder="Write your message here, please."> 
+                </div>
+                <button type="submit">Send</button>
+                </form>
+            </div>
         </div>
     </section>
 </main>
     <!-- Footer -->
     <footer class="footer">
-        <div>
-            <ul class="ul-sections-footer">
-                <li class="li-font-hover"><a class="link-none-deco" href="#hello">HELLO</a></li>
-                <li class="li-font-hover"><a class="link-none-deco" href="#knowledge">KNOWLEDGE</a></li>
-                <li class="li-font-hover"><a class="link-none-deco" href="#projects">PROJECTS</a></li>
-                <li class="li-font-hover"><a class="link-none-deco" href="#contact">CONTACT</li>
-            </ul>
-        </div>
+    
+        <ul class="ul-sections-footer">
+            <li class="li-font-hover"><a class="link-none-deco" href="#hello">HELLO</a></li>
+            <li class="li-font-hover"><a class="link-none-deco" href="#knowledge">KNOWLEDGE</a></li>
+            <li class="li-font-hover"><a class="link-none-deco" href="#projects">PROJECTS</a></li>
+            <li class="li-font-hover"><a class="link-none-deco" href="#contact">CONTACT</li>
+        </ul>
 
-        <div>
-            <ul  class="rrss">
-                <li class="circulo-rrss"><a href="https://www.twitter.com/?hl=es">
-                    <img class="icono-rrss" src="./assets/images/Footer/rrss/twitter.svg" alt="Twitter"></li>
 
-                <li class="circulo-rrss"><a href="https://github.com/CeciTeser">
-                    <img class="icono-rrss" src="./assets/images/Footer/rrss/github-logo-face.svg" alt="Github"></li>
-
-                <li class="circulo-rrss"><a href="https://www.linkedin.com/in/ceciliateisaire/">
-                    <img class="icono-rrss" src="./assets/images/Footer/rrss/linkedin.svg" alt="Linkedin"></li>
-
-                <li class="circulo-rrss"><a href="https://www.twitter.com/?hl=es">
-                    <img class="icono-rrss" src="./assets/images/Footer/rrss/email-blanco.svg" alt="Mail"></li>
-            </ul>
-        </div>
         
-        <div class="sign">
-            <p>Hecho por Ceci Teser</p>
-        </div>
+        <ul  class="rrss-footer">
+            <li><a class="circulo-rrss-footer" href="https://www.twitter.com/?hl=es">
+                <img class="icono-rrss-footer" src="./assets/images/Footer/rrss/twitter.svg" alt="Twitter">
+            </li></a>
+
+            <li><a class="circulo-rrss-footer" href="https://github.com/CeciTeser">
+                    <img class="icono-rrss-footer" src="./assets/images/Footer/rrss/github-logo-face.svg" alt="Github">
+            </li></a>
+
+            <li><a  class="circulo-rrss-footer" href="https://www.linkedin.com/in/ceciliateisaire/">
+                <img class="icono-rrss-footer" src="./assets/images/Footer/rrss/linkedin.svg" alt="Linkedin">
+            </li></a>
+
+            <li><a class="circulo-rrss-footer" href="">
+                    <img class="icono-rrss-footer" src="./assets/images/Footer/rrss/email-blanco.svg" alt="Mail">
+            </li></a>
+        </ul>
+
+        <p class="sign">Hecho por Ceci Teser</p>
     </footer>
 </body>
 </html>
