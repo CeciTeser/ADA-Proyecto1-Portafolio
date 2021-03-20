@@ -53,3 +53,35 @@
     margin-bottom: 20px;
 }
 
+@media screen and (max-width:400px){
+    .knowledge{
+        height: 100%;
+        width: 1100px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    
+    .box-container-knowledge{
+        height: 100%;
+        width: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .grid-skills{
+        height: 90%;
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    
+    }
+}

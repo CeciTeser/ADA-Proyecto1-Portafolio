@@ -49,3 +49,34 @@
 .box-what-i-do:hover{
     background-color: #A8DADC;
 }
+
+@media screen and (max-width:400px){
+    .hello{
+        height: 100%;
+        width: 1100px;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background-color: rgb(250, 245, 245);
+    }
+    .name-presentation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box-image-presentation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .image-presentation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

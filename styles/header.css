@@ -41,3 +41,14 @@ header{
 .link-none-deco:hover{
     color: #A8DADC;
 }
+@media screen and (max-width:400px){
+    header{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .ul-sections-header{
+        display: none;
+    }
+}
