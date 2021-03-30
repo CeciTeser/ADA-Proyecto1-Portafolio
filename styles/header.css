@@ -29,6 +29,9 @@ header{
 .box-contacto:hover{
     background-color: #A8DADC;
 }
+.box-contacto:active{
+    background-color: #639ea0;
+}
 
 .link-none-deco{
     text-decoration: none;
@@ -40,6 +43,9 @@ header{
 }
 .link-none-deco:hover{
     color: #A8DADC;
+}
+.link-none-deco:active{
+    color: #E63946;
 }
 @media screen and (max-width:400px){
     header{
