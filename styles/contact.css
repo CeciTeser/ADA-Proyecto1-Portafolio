@@ -91,7 +91,7 @@
     height: 20px;
 }
 .circulo-rrss-contact:hover{
-    background-color:#E63946;
+    background-color:#A8DADC;
 }
 
 .title-writeme{
@@ -144,6 +144,13 @@
     border: transparent; 
     padding-left: 10px;
 }
+.input-mail:invalid {
+    border: 2px solid red;
+}
+input:focus{
+    background-color: rgb(218, 216, 216)
+}
+
 .box-message{
     width: 450px;
     height: 240px;
@@ -174,7 +181,10 @@ button{
     border: 1px solid rgb(157, 157, 157); 
 }
 button:hover{
-    background-color:#ee5360;
+    background-color:#f14856;
+}
+button:active{
+    background-color:#A8DADC;
 }
 
 @media screen and (max-width:400px){

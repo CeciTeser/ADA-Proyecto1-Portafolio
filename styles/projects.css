@@ -59,6 +59,9 @@
     font-weight: 300;
     margin-top: 20px;
 }
+.box-each-project:hover{
+    border: 1.5px solid #E63946;
+}
 @media screen and (max-width:400px){
     .projects{
         height: 1900px;
