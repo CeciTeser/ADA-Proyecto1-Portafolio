@@ -47,6 +47,10 @@
     width:370px;
 }
 
+.li-contacto{
+    width: 200px;
+    height: 40px; 
+}
 .rrss-contact{ 
     width: 400px;
     height: 250px;
@@ -83,16 +87,18 @@
     color: rgb(157, 157, 157);
     text-decoration: none;
 }
-.link-none-deco-contact:hover{
-    color: #A8DADC;
-}
+
 .icono-rrss-contact{
     width: 20px;
     height: 20px;
 }
-.circulo-rrss-contact:hover{
+.li-contacto:hover .link-none-deco-contact{
+    color: #A8DADC;
+}
+.li-contacto:hover .circulo-rrss-contact{
     background-color:#A8DADC;
 }
+
 .input-style{
     outline-style: none;
 }
