@@ -147,6 +147,7 @@
 .input-mail:invalid {
     border: 2px solid red;
 }
+
 input:focus{
     background-color: rgb(218, 216, 216)
 }

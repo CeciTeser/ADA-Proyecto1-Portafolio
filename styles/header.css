@@ -46,6 +46,8 @@ header{
 }
 .link-none-deco:active{
     color: #E63946;
+    border: 2px solid #A8DADC;
+    border-radius: 5px;
 }
 @media screen and (max-width:400px){
     header{
