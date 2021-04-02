@@ -93,7 +93,9 @@
 .circulo-rrss-contact:hover{
     background-color:#A8DADC;
 }
-
+.input-style{
+    outline-style: none;
+}
 .title-writeme{
     font-size: 45px;
     color: rgb(157, 157, 157);
