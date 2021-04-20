@@ -1,5 +1,5 @@
 .hello{
-    height: 1100px;
+    height: 900px;
     width: 100%;
     padding: 10%;
     display: flex;
@@ -9,16 +9,16 @@
     background-color: rgb(250, 245, 245);
 }
 .container{
-    height: 800px;
-    width: 1700px;
+    height: 600px;
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding-bottom: 200px;
 }
 .name-presentation{
     width: 50%;
     height: 100%;
-    margin-top: 20%;
+    margin-top: 8%;
 }
 .box-image-presentation{
     width: 50%;
