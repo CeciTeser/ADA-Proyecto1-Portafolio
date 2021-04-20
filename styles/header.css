@@ -35,6 +35,7 @@ header{
 
 .link-none-deco{
     text-decoration: none;
+    color: black;
 }
 
 .link-none-deco:visited{

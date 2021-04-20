@@ -81,6 +81,7 @@
 .link-none-deco-contact{
     text-decoration: none;
     margin: 10px;
+    color: rgb(157, 157, 157);
 }
 
 .link-none-deco-contact:visited{

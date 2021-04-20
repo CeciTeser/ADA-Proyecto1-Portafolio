@@ -8,10 +8,17 @@
     align-items: center; 
     background-color: rgb(250, 245, 245);
 }
+.container{
+    height: 800px;
+    width: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .name-presentation{
     width: 50%;
     height: 100%;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 .box-image-presentation{
     width: 50%;
@@ -60,6 +67,14 @@
         justify-content: center;
         align-items: center; 
         background-color: rgb(250, 245, 245);
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 300px;
+    }
     }
     .name-presentation{
         display: flex;
