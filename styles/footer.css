@@ -3,8 +3,10 @@
     width: 100%;
     padding: 3%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(250, 245, 245);
-    flex-wrap: wrap;
 
 }
 .ul-sections-footer{
@@ -14,24 +16,29 @@
     font-size: 15px;
     font-weight: 300;
     display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin-left: 600px;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    list-style: none; 
+    background-color: aqua; 
+
 }
 .rrss-footer{
     width: 20%;
     height: 30%;
     display: flex;
     list-style: none;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
-    margin-left: 650px;
     margin-top: 20px;
+
+
 }
 .icono-rrss-footer{
     width: 20px;
     height: 20px;
+    
 }
 .circulo-rrss-footer{
     width: 50px;
@@ -41,8 +48,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 10px;
+    margin:0px 10px ;
 }
+.link-none-deco{
+    text-decoration: none;
+    color: black;
+    margin: 0px 15px;
+    background-color: blueviolet;
+
+}
+
 .sign{
     width: 20%;
     height: 30%;
@@ -53,7 +68,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    margin-left: 670px;
+
 }
 .circulo-rrss-footer:hover{
     background-color:  #A8DADC;
