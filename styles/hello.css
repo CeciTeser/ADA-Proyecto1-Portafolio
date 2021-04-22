@@ -1,5 +1,5 @@
 .hello{
-    height: 1100px;
+    height: 900px;
     width: 100%;
     padding: 10%;
     display: flex;
@@ -8,10 +8,17 @@
     align-items: center; 
     background-color: rgb(250, 245, 245);
 }
+.container{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 200px;
+}
 .name-presentation{
     width: 50%;
     height: 100%;
-    margin-top: 30%;
+    margin-top: 8%;
 }
 .box-image-presentation{
     width: 50%;
@@ -60,6 +67,14 @@
         align-items: center; 
         background-color: rgb(250, 245, 245);
         padding-bottom: 60%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 300px;
+    }
     }
     .name-presentation{
         display: flex;
