@@ -104,12 +104,12 @@
     }
     .grid-my-projects{
         height: 900px;
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         margin-top: 0px;
-        padding-left: 10px;
+        padding-left: 0px;
     }
 
     .box-each-project{
@@ -118,7 +118,6 @@
         background-color: white;
         border-radius: 10px;
         border: 1px solid rgb(230, 228, 228);
-        margin: 10px;
         display: flex;
         justify-content: center;
         align-items: center;

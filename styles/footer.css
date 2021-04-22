@@ -30,8 +30,6 @@
     justify-content: center;
     flex-direction: row;
     margin-top: 20px;
-
-
 }
 .icono-rrss-footer{
     width: 20px;
@@ -89,6 +87,31 @@
         display: none;
     }
 
+    .rrss-footer{
+        height: 30%;
+        width: 80%;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+    .circulo-rrss-footer{
+        width: 40px;
+        height: 40px;
+        background-color:#E63946;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icono-rrss-footer{
+        width: 15px;
+        height: 15px;
+        
+    }
     .sign{
         height: 100px;
         width: 200px;
@@ -98,10 +121,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
-.circulo-rrss-footer:hover{
-    background-color:  #A8DADC;
+    .circulo-rrss-footer:hover{
+        background-color:  #A8DADC;
     }
+
+
 }

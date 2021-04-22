@@ -202,12 +202,14 @@ button:active{
         height: 1450px;
         width: 100%;
         display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
         background-color: #A8DADC;
     }
     
     .box-container-form{
         height: 1300px;
-        width: 100%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         justify-content:flex-start;
@@ -215,7 +217,6 @@ button:active{
         flex-wrap: wrap;
         border-radius: 10px;
         background-color: white;
-
     }
     .box-contactme{
         height: 600px;
@@ -229,11 +230,11 @@ button:active{
     .title-contactme{
         font-size: 40px;
         color: rgb(157, 157, 157);
-        padding-right: 90px;
+        padding-right: 70px;
     }
     .text-contactme{
         height: 100px;
-        width: 300px;
+        width: 100%;
         font-size: 16px;
         color: rgb(157, 157, 157);
     }
@@ -254,6 +255,11 @@ button:active{
         align-items: flex-start;
         flex-direction: column;
     }
+
+    .title-writeme{
+        font-size: 40px;
+        color: rgb(157, 157, 157);
+    }
     .box-name-lastname{
         height: 150px;
         width: 100%;
@@ -263,7 +269,7 @@ button:active{
     }
     .input-name-lastname{
         height: 40px;
-        width: 145%;
+        width: 140%;
         background-color:  rgb(250, 245, 245);
         border-radius: 20px;
         border: transparent; 
@@ -272,7 +278,7 @@ button:active{
 
     .input-mail{
         height: 40px;
-        width: 65%;
+        width: 60%;
         background-color:  rgb(250, 245, 245);
         border-radius: 20px;
         border: transparent; 
@@ -281,7 +287,7 @@ button:active{
 
     .input-message{
         height: 200px;
-        width: 65%;
+        width: 60%;
         background-color:  rgb(250, 245, 245);
         border-radius: 20px;
         border: transparent ; 
