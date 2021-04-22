@@ -30,6 +30,7 @@ nav{
     align-items: center;
     color: white;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .link-deco{
@@ -48,15 +49,14 @@ nav{
     background-color: #639ea0;
 }
 
-
-.link-none-deco:visited{
+.link-deco:visited{
     color: black;
     text-decoration: none;
 }
-.link-none-deco:hover{
+.link-deco:hover{
     color: #A8DADC;
 }
-.link-none-deco:active{
+.link-deco:active{
 
     color: #E63946;
     border: 2px solid #A8DADC;
