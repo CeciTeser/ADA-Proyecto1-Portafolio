@@ -20,6 +20,10 @@
     justify-content:center;
     flex-direction: row;
     list-style: none; 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 875cf7905100490c420db8f448d043ee3250d1ed
 }
 .rrss-footer{
     width: 20%;
@@ -69,6 +73,11 @@
 .link-none-deco:hover{
     color: #A8DADC;
 }
+.link-none-deco:hover{
+    text-decoration: none;
+    color: #A8DADC;  
+}
+
 .circulo-rrss-footer:hover{
     background-color:  #A8DADC;
 }
