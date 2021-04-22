@@ -67,6 +67,11 @@
     margin-top: 30px;
 
 }
+.link-none-deco:hover{
+    text-decoration: none;
+    color: #A8DADC;  
+}
+
 .circulo-rrss-footer:hover{
     background-color:  #A8DADC;
 }
