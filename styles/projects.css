@@ -69,30 +69,77 @@
 
 @media screen and (max-width:400px){
     .projects{
-        height: 1900px;
-        width: 1100px;
-        padding: 10%;
+        height: 2900px;
+        width: 400px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
+        flex-direction: column;
         align-items: center; 
         background-color: rgb(250, 245, 245);
     }
-    
     .box-container-projects{
-        width: 1100px;
-        height: 1350px;
+        height: 2850px;
+        width: 400px;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
-        margin-bottom: 300px;
+
+    }
+
+    .title-projects{
+        width: 300px;
+        height: 70px;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(157, 157, 157);
+    }  
+
+    .text-projects{
+        width:300px;
+        height: 100px;
+        text-align: center;
+        font-size: 16px;
+        color: rgb(157, 157, 157);
     }
     .grid-my-projects{
-        width: 900px;
         height: 900px;
+        width: 400px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         margin-top: 30px;
-        padding-left: 70px;
+        padding-left: 10px;
+    }
+
+    .box-each-project{
+        width: 360px;
+        height: 340px;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(230, 228, 228);
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .projects-img-size{
+        width: 200px;
+        height: 200px;
+    }
+    .text-each-project{
+        color: rgb(157, 157, 157);
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+    .box-each-project:hover{
+        border: 1.5px solid #E63946;
+    }
+    
+    .box-each-project:hover .text-each-project{
+        color: #E63946;
     }
 }

@@ -59,33 +59,52 @@
 
 @media screen and (max-width:400px){
     .hello{
-        height: 100%;
-        width: 1100px;
+        height: 1300px;
+        width: 400px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
         background-color: rgb(250, 245, 245);
     }
     .container{
         height: 90%;
-        width: 1100px;
+        width: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .name-presentation{
+        width: 300px;
+        height: 700px;
         display: flex;
         justify-content:center;
         align-items: center;
         flex-direction: column;
-        padding-top: 40px;
     }
     .box-image-presentation{
+        width: 300px;
+        height: 700px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .name{
+        margin: 20px 50px;
+    }
+
+    p{
+        margin: 20px 50px; 
+    }
+
+    .image-presentation{
+        width: 300px;
+        height: 300px;
+    }
+
+    .box-what-i-do:hover{
+        background-color: #A8DADC;
     }
 }

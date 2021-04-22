@@ -20,10 +20,6 @@
     justify-content:center;
     flex-direction: row;
     list-style: none; 
-<<<<<<< HEAD
-=======
-
->>>>>>> 875cf7905100490c420db8f448d043ee3250d1ed
 }
 .rrss-footer{
     width: 20%;
@@ -85,10 +81,27 @@
 @media screen and (max-width:400px){
     .footer{
         height: 250px;
-        width: 1100px;
+        width: 400px;
         background-color: rgb(250, 245, 245);
+        padding-top: 30px;
     }
     .ul-sections-footer{
         display: none;
+    }
+
+    .sign{
+        width: 200px;
+        height: 100px;
+        color: black;
+        font-size: 15px;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+.circulo-rrss-footer:hover{
+    background-color:  #A8DADC;
     }
 }
