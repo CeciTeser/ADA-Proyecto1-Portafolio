@@ -20,8 +20,6 @@
     justify-content:center;
     flex-direction: row;
     list-style: none; 
-    background-color: aqua; 
-
 }
 .rrss-footer{
     width: 20%;
@@ -54,8 +52,6 @@
     text-decoration: none;
     color: black;
     margin: 0px 15px;
-    background-color: blueviolet;
-
 }
 
 .sign{
@@ -68,7 +64,10 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+}
 
+.link-none-deco:hover{
+    color: #A8DADC;
 }
 .circulo-rrss-footer:hover{
     background-color:  #A8DADC;
@@ -82,28 +81,5 @@
     }
     .ul-sections-footer{
         display: none;
-    }
-    .rrss-footer{
-        width: 20%;
-        height: 30%;
-        display: flex;
-        list-style: none;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-        position: relative;
-        right: 250px;
-    }
-    .sign{
-        width: 20%;
-        height: 30%;
-        color: black;
-        font-size: 15px;
-        font-weight: 300;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        right: 250px;
     }
 }
