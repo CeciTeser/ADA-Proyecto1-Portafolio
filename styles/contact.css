@@ -248,31 +248,31 @@ button:active{
     }
     .box-writeme{ 
         height: 500px;
-        width: 95%;
+        width: 100%;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
-
     }
     .box-name-lastname{
         height: 150px;
-        width: 95%;
+        width: 100%;
         display: flex;
         flex-direction: column;
+
     }
     .input-name-lastname{
         height: 40px;
-        width: 300px;
+        width: 145%;
         background-color:  rgb(250, 245, 245);
         border-radius: 20px;
         border: transparent; 
-        padding-left: 10px;
+
     }
 
     .input-mail{
         height: 40px;
-        width: 300px;
+        width: 65%;
         background-color:  rgb(250, 245, 245);
         border-radius: 20px;
         border: transparent; 
@@ -281,7 +281,7 @@ button:active{
 
     .input-message{
         height: 200px;
-        width: 300px;
+        width: 65%;
         background-color:  rgb(250, 245, 245);
         border-radius: 20px;
         border: transparent ; 
